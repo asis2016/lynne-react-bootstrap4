@@ -38,6 +38,7 @@ export const MasterHeadStyleOneBase = styled.div`
   .carousel-item img{
     height: 400px;
     border-radius: 10px;
+    object-fit: cover;
   }
   
 `;

@@ -9,9 +9,6 @@ export const NavigationStyleOneBase = styled.div`
 
   .navbar{
     background: ${DefaultStyle.secondary};
-    -webkit-box-shadow: 0px 3px 5px 0px rgba(80,99,156,1);
-    -moz-box-shadow: 0px 3px 5px 0px rgba(80,99,156,1);
-    box-shadow: 0px 3px 5px 0px rgba(80,99,156,1);
   }
   
   .navbar-brand{

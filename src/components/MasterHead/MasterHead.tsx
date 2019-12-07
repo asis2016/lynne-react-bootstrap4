@@ -15,7 +15,7 @@ export const MasterHeadStyleOne: FC<IProps> = (props) => {
         <div className="overlay"></div>
 
         {/* Navigation */}
-        <NavigationStyleOne navbarBrand="Lynne Travel"/>
+        <NavigationStyleOne navbarBrand="Lynne Fashion"/>
 
         <div className="container-fluid master-head-content">
             <Row className="vh-100 justify-content-center align-items-center">
@@ -43,7 +43,7 @@ export const MasterHeadStyleOne: FC<IProps> = (props) => {
                         {MasterHeadStyleOneCarouselContent.map((item) =>
                             <Carousel.Item>
                                 <img
-                                    className="d-block w-100"
+                                    className="w-100 img img-fluid"
                                     src={require("../../assets/images/" + item.img)}
                                     alt={item.title}
                                 />

@@ -22,9 +22,9 @@ export const NavigationStyleOneContent = [
 ];
 
 export const MasterHeadStyleOneContent = {
-    title: 'Reisen ist immer eine Lektion.',
-    content: `Reisen ist fatal für Vorurteile, Bigotterie und Engstirnigkeit, und viele unserer Leute brauchen
-                        es aus diesen Gründen dringend.
+    title: 'Ihre Mode, unser Service.',
+    content: `Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                        minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                         Umfassende, wohltätige und wohltätige Ansichten von Menschen und Dingen können nicht erlangt
                         werden, wenn man ein Leben lang in
                         einem kleinen Winkel der Erde vegetiert.`
@@ -35,20 +35,26 @@ export const MasterHeadStyleOneCarouselContent = [
         id: 0,
         caption: 'Quo voluptas nulla pariatur dolore magnam aliquam quaerat?',
         title: 'Inventore veritatis',
-        img: 'travel-1.jpg'
+        img: 'dress-2.jpg'
     },
     {
         id: 1,
         caption: 'Quis autem vel eum iure eos qui ratione voluptatem.',
         title: 'Consequuntur magni',
-        img: 'travel-2.jpg'
+        img: 'dress-1.jpg'
     },
     {
         id: 1,
         caption: 'Quis autem vel eum iure eos qui ratione voluptatem.',
         title: 'Consequuntur magni',
-        img: 'travel-3.jpg'
+        img: 'dress-3.jpg'
     },
+    {
+        id: 1,
+        caption: 'Quis autem vel eum iure eos qui ratione voluptatem.',
+        title: 'Magni Inventore',
+        img: 'dress-4.jpg'
+    }
 ];
 
 export const FeatureStyleOneContent = [

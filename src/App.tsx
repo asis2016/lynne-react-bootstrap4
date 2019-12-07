@@ -32,7 +32,7 @@ const App: React.FC = () => {
         <BlogPostStyleOne category={"Auf der ganzen Welt"}/>
 
         {/*CardProfileSimple*/}
-        <CardProfileStyleOne title={"Unsere Teammitglieder"}
+        <CardProfileStyleOne title={"Unsere Designerin"}
                              caption={`Curabitur blandit tempus porttitor. Nullam quis risus eget urna mollis ornare vel eu leo.
                         Nullam id dolor id nibh ultricies vehicula ut id elit.`}
         />

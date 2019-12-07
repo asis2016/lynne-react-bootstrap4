@@ -3,7 +3,7 @@ import {DefaultStyle} from "../../assets/style/Style";
 
 export const FooterCopyrightStyleOneBase = styled.div`
 
-  background-color: ${DefaultStyle.secondary};
+  background-color: ${DefaultStyle.primaryDark};
 
   p{
     font-size: 80%;
