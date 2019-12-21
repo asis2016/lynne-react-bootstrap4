@@ -259,13 +259,6 @@ export const CardProfileStyleOneContent = [
             },
         ]
     },
-
-    /*{
-        id: 6,
-        imageUrl: 'profile-6.jpg',
-        name: 'Mariam Wimmer',
-        content: 'Weit über den nebligen Bergen kalt In tiefe Kerker und alte Höhlen. Wir müssen vor Tagesanbruch weg, um unser längst vergessenes Gold zu finden.'
-    },*/
 ];
 
 export const PricingStyleOneContent = [
