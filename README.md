@@ -56,7 +56,7 @@ If you have any feedback, please reach out to us at hello@amaharjan.com
 ## Screenshot
 ![Screenshot](/screenshots/screenshot.png)
 
-## shout-out
+## Shout-out
 
  - [unsplash.com](https://unsplash.com/)
  - [netlify.com](https://www.netlify.com/)
