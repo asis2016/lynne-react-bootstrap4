@@ -19,13 +19,13 @@ const App: React.FC = () => {
 
         {/* Feature Style One */}
         <FeatureStyleOne
-          title="Sed ut perspiciatis unde omnis iste natus."
+          title="Was unser Designer sagt"
           caption="Sehen Sie sich an, was Sie mit diesem App-Thema machen können!"
         />
 
         {/* Magazine Style One */}
         <MagazineStyleOne
-          title={"Sed ut perspiciatis unde omnis iste"}
+          title={"Zeitschriftensammlung"}
           caption={`Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
                           nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui`}
         />
@@ -58,7 +58,7 @@ const App: React.FC = () => {
           title="Contact Us"
           caption={`Lorem ipsum dolor sit amet consectetur. Nullam quis risus eget urna mollis ornare vel eu leo.
                            Nullam id dolor id nibh ultricies vehicula ut id elit.`}
-        />  
+        />
 
         {/* Footer Copyright */}
         <FooterCopyrightStyleOne

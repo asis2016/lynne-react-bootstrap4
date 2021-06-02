@@ -58,31 +58,33 @@ export const MasterHeadStyleOneCarouselContent = [
 ];
 
 export const FeatureStyleOneContent = [
-    {
-        id: 0,
-        title: 'Nam libero',
-        caption: 'quis nostrum exercitationem ullam corporis suscipit laboriosam.',
-        img: 'feature-2.jpg'
-    },
-    {
-        id: 1,
-        title: 'At vero eos',
-        caption: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem omnis dolor.',
-        img: 'feature-1.jpg'
-    },
-    {
-        id: 2,
-        title: 'Ut aut reiciendis',
-        caption: 'At vero eos et accusamus et iusto odio dignissimos ducimus qui.',
-        img: 'feature-4.jpg'
-    },
-    {
-        id: 3,
-        title: 'Quis autem vel',
-        caption: 'maxime placeat facere possimus, omnis voluptas assumenda est, repellendus.',
-        img: 'feature-3.jpg'
-    }
-]
+  {
+    id: 0,
+    title: "Sanaya Marshall",
+    caption: "quis nostrum exercitationem ullam corporis suscipit laboriosam.",
+    img: "feature-2.jpg",
+  },
+  {
+    id: 1,
+    title: "Konrad Wills",
+    caption:
+      "Sed ut perspiciatis unde omnis iste natus error sit voluptatem omnis dolor.",
+    img: "feature-1.jpg",
+  },
+  {
+    id: 2,
+    title: "Kiki Spence",
+    caption: "At vero eos et accusamus et iusto odio dignissimos ducimus qui.",
+    img: "feature-4.jpg",
+  },
+  {
+    id: 3,
+    title: "Mert Collins",
+    caption:
+      "maxime placeat facere possimus, omnis voluptas assumenda est, repellendus.",
+    img: "feature-3.jpg",
+  },
+];
 
 export const ContentLoremIpsum = {
     paragraphOne: `Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, 

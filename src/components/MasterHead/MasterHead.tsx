@@ -19,7 +19,7 @@ export const MasterHeadStyleOne: FC<IProps> = (props) => {
 
         <div className="container-fluid master-head-content">
           <Row className="vh-100 justify-content-center align-items-center">
-            <Col xs={6}>
+            <Col md={8}>
               <h1>{MasterHeadStyleOneContent.title}</h1>
               <p className="pt-3 pb-5">{MasterHeadStyleOneContent.content}</p>
               <form>
@@ -41,7 +41,7 @@ export const MasterHeadStyleOne: FC<IProps> = (props) => {
                 </div>
               </form>
             </Col>
-            <Col xs={4}>
+            {/* <Col xs={4}>
               <Carousel>
                 {MasterHeadStyleOneCarouselContent.map((item, index) => (
                   <Carousel.Item key={index}>
@@ -53,7 +53,7 @@ export const MasterHeadStyleOne: FC<IProps> = (props) => {
                   </Carousel.Item>
                 ))}
               </Carousel>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </MasterHeadStyleOneBase>
