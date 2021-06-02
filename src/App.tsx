@@ -47,12 +47,6 @@ const App: React.FC = () => {
                          Es besteht aus Standard-Bootstrap-Komponenten und -Dienstprogrammen mit nur wenigen Anpassungen.`}
         />
 
-        {/* Footer Menu   */}
-        <FooterMenuStyleOne
-          title="Our Magazine"
-          caption="We proudly present you:"
-        />
-
         {/* Contact Us */}
         <ContactusStyleOne
           title="Contact Us"
