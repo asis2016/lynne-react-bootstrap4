@@ -8,18 +8,23 @@ interface IProps {
 }
 
 export const ArchiveStyleOne: FC<IProps> = (props) => {
-    return <ArchiveStyleOneBase>
+    return (
+      <ArchiveStyleOneBase>
         <div className="archive-style-one">
-            <ul className="list-group">
-                <li className="list-group-item active"><h4 className="text-white">{props.title}</h4></li>
-                {ArchiveStyleOneContent.map((item) =>
-                    <li className="list-group-item">{item.month}
-                        <div
-                            className="pull-right badge bg-secondary-lynne text-white">{item.posts} posts
-                        </div>
-                    </li>
-                )}
-            </ul>
+          <ul className="list-group">
+            <li className="list-group-item active">
+              <h4 className="text-white">{props.title}</h4>
+            </li>
+            {ArchiveStyleOneContent.map((item, index) => (
+              <li className="list-group-item" key={index}>
+                {item.month}
+                <div className="pull-right badge bg-secondary-lynne text-white">
+                  {item.posts} posts
+                </div>
+              </li>
+            ))}
+          </ul>
         </div>
-    </ArchiveStyleOneBase>
+      </ArchiveStyleOneBase>
+    );
 }

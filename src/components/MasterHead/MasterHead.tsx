@@ -10,48 +10,52 @@ interface IProps {
 }
 
 export const MasterHeadStyleOne: FC<IProps> = (props) => {
-    return <MasterHeadStyleOneBase className="vh-100">
-
+    return (
+      <MasterHeadStyleOneBase className="vh-100">
         <div className="overlay"></div>
 
         {/* Navigation */}
-        <NavigationStyleOne navbarBrand="Lynne Fashion"/>
+        <NavigationStyleOne navbarBrand="Lynne Fashion" />
 
         <div className="container-fluid master-head-content">
-            <Row className="vh-100 justify-content-center align-items-center">
-                <Col xs={6}>
-                    <h1>
-                        {MasterHeadStyleOneContent.title}
-                    </h1>
-                    <p className="pt-3 pb-5">
-                        {MasterHeadStyleOneContent.content}
-                    </p>
-                    <form>
-                        <div className="form-row">
-                            <div className="col">
-                                <button type="button" className="btn btn-primary-lynne btn-lg mr-4">Jetzt erkunden!
-                                </button>
-                                <button type="button" className="btn btn-secondary-lynne btn-lg">Beginn mit dem
-                                    Einkauf
-                                </button>
-                            </div>
-                        </div>
-                    </form>
-                </Col>
-                <Col xs={4}>
-                    <Carousel>
-                        {MasterHeadStyleOneCarouselContent.map((item) =>
-                            <Carousel.Item>
-                                <img
-                                    className="w-100 img img-fluid"
-                                    src={require("../../assets/images/" + item.img)}
-                                    alt={item.title}
-                                />
-                            </Carousel.Item>
-                        )}
-                    </Carousel>
-                </Col>
-            </Row>
+          <Row className="vh-100 justify-content-center align-items-center">
+            <Col xs={6}>
+              <h1>{MasterHeadStyleOneContent.title}</h1>
+              <p className="pt-3 pb-5">{MasterHeadStyleOneContent.content}</p>
+              <form>
+                <div className="form-row">
+                  <div className="col">
+                    <button
+                      type="button"
+                      className="btn btn-primary-lynne btn-lg mr-4"
+                    >
+                      Jetzt erkunden!
+                    </button>
+                    <button
+                      type="button"
+                      className="btn btn-secondary-lynne btn-lg"
+                    >
+                      Beginn mit dem Einkauf
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </Col>
+            <Col xs={4}>
+              <Carousel>
+                {MasterHeadStyleOneCarouselContent.map((item, index) => (
+                  <Carousel.Item key={index}>
+                    <img
+                      className="w-100 img img-fluid"
+                      src={require("../../assets/images/" + item.img)}
+                      alt={item.title}
+                    />
+                  </Carousel.Item>
+                ))}
+              </Carousel>
+            </Col>
+          </Row>
         </div>
-    </MasterHeadStyleOneBase>
+      </MasterHeadStyleOneBase>
+    );
 }

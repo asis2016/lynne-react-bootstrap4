@@ -8,23 +8,23 @@ interface IProps {
 }
 
 export const NavigationStyleOne: FC<IProps> = (props) => {
-    return <NavigationStyleOneBase>
+    return (
+      <NavigationStyleOneBase>
         <div className="container pt-4">
-            <Navbar collapseOnSelect expand="lg">
-                <Navbar.Brand>
-                    {props.navbarBrand}
-                </Navbar.Brand>
-                <Navbar.Toggle aria-controls="responsive-navbar-nav"/>
-                <Navbar.Collapse id="responsive-navbar-nav">
-                    <Nav className="ml-auto">
-
-                        {NavigationStyleOneContent.map((item) =>
-                            <Nav.Link href="#">{item.navText}</Nav.Link>
-                        )}
-
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
+          <Navbar collapseOnSelect expand="lg">
+            <Navbar.Brand>{props.navbarBrand}</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="ml-auto">
+                {NavigationStyleOneContent.map((item, index) => (
+                  <Nav.Link href="#" key={index}>
+                    {item.navText}
+                  </Nav.Link>
+                ))}
+              </Nav>
+            </Navbar.Collapse>
+          </Navbar>
         </div>
-    </NavigationStyleOneBase>
+      </NavigationStyleOneBase>
+    );
 }

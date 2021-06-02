@@ -8,20 +8,24 @@ interface IProps {
 }
 
 export const RecentPostsStyleOne: FC<IProps> = (props) => {
-    return <RecentPostsStyleOneBase>
+    return (
+      <RecentPostsStyleOneBase>
         <div className="recent-posts-style-one">
-            <h4 className="mt-5 mb-2">{props.title}</h4>
-            {RecentPostsStyleOneContent.map((item) =>
-                <div className="media">
-                    <img className="mr-3" src={require("../../assets/images/" + item.img)} alt=""/>
-                    <div className="media-body">
-                        <h6 className="mt-0">{item.title.substring(0, 20)} ...</h6>
-                        <p>
-                            {item.shortContent.substring(0, 50)} ...
-                        </p>
-                    </div>
-                </div>
-            )}
+          <h4 className="mt-5 mb-2">{props.title}</h4>
+          {RecentPostsStyleOneContent.map((item, index) => (
+            <div className="media" key={index}>
+              <img
+                className="mr-3"
+                src={require("../../assets/images/" + item.img)}
+                alt=""
+              />
+              <div className="media-body">
+                <h6 className="mt-0">{item.title.substring(0, 20)} ...</h6>
+                <p>{item.shortContent.substring(0, 50)} ...</p>
+              </div>
+            </div>
+          ))}
         </div>
-    </RecentPostsStyleOneBase>
+      </RecentPostsStyleOneBase>
+    );
 }
