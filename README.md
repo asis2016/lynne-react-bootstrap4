@@ -1,4 +1,4 @@
-# Lynne React BS4
+# Lynne Fashion
 
 Lynne Fashion is a free React / TypeScript, Bootstrap 4 template made for fashion store. This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
