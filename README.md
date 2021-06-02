@@ -14,9 +14,7 @@ Runs the app in the development mode. Open [http://localhost:3000](http://localh
 
 ## Tech Stack
 
-**Client:** React, Redux, TailwindCSS
-
-**Server:** Node, Express
+React, TypeScript, HTML/CSS, SASS, styled-components, Bootstrap 4
 
   
 ## Run Locally
@@ -49,20 +47,17 @@ Start the server
 ## Demo
 
 [https://reverent-brown-9a87e7.netlify.app/](https://reverent-brown-9a87e7.netlify.app/)
-
   
 ## Feedback
 
 If you have any feedback, please reach out to us at hello@amaharjan.com
-
-  
-## Acknowledgements
-
- - [unsplash.com](https://unsplash.com/)
- - [netlify.com](https://www.netlify.com/)
-
-  
+ 
 
 ## Screenshot
 ![Screenshot](/screenshots/screenshot.png)
+
+## shout-out
+
+ - [unsplash.com](https://unsplash.com/)
+ - [netlify.com](https://www.netlify.com/)
 
